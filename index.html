@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSSchool-cv-html</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="left-side">
+        <div class="text">
+            <div class="image">
+                <img src="jpguser.png" alt="User photo">
+            </div>
+            <h2>Papova Nastassia<br><span>Frontend Developer (Beginner)</span></h2>
+        </div>
+        <div class="contact-info">
+            <h3 class="title">Contact information</h3>
+            <ul>
+                <li>
+                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <span class="text-contact"><a href="tel:+375299096191">+375 (29) 909-61-91</a></span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <span class="text-contact"><a href="mailto:nastyapopovaa1@gmail.com">nastyapopovaa1@gmail.com</a></span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-telegram" aria-hidden="true"></i></span>
+                    <span class="text-contact"><a href="https://telegram.im/@anpopovaa" target="_blank">@anpopovaa</a></span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-behance" aria-hidden="true"></i></span>
+                    <span class="text-contact"><a href="https://www.behance.net/nastassiapapova">Behance</a></span>
+                </li>
+            </ul>
+        </div>
+        <div class="skills-info">
+            <h3 class="title">Skills</h3>
+            <ul>
+                <li class="skills-margin">
+                    <h4>HTML5, CSS3</h4>
+                </li>
+                <li class="skills-margin">
+                    <h4>JavaScript Basics</h4>
+                </li>
+                <li class="skills-margin">
+                    <h4>Git, GitHub</h4>
+                </li>
+                <li class="skills-margin">
+                    <h4>Figma, Illustrator</h4>
+                </li>
+            </ul>
+        </div>
+        <div class="languages-info">
+            <h3 class="title">Languages</h3>
+            <ul>
+                <li class="skills-margin">
+                    <h4>English</h4>
+                    <h5>B1+</h5>
+                </li>
+                <li class="skills-margin">
+                    <h4>Russian, Belarussian</h4>
+                    <h5>Native</h5>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="right-side">
+        <div class="about">
+            <h2 class="title2">About Me</h2>
+            <p>My way in IT started as UX/UI designer. I had a lot of self-training and i chose trainee position at a Belarussian IT company and worked there for 6 months. Now I’m interested in learning from the inside of the product, so i decided to study Front-end.</p>
+        </div>
+        <div class="courses">
+            <h2 class="title3">Courses</h2>
+            <ul>
+                <li class="courses-list">Stepik course</li>
+                <li class="courses-list">Netology course</li>
+                <li class="courses-list">RS School course “JavaScript/Front-end. Stage 0”</li>
+            </ul>
+            <img src="JS_сертификат.png" alt="Stepik sertificate" width="300" height="210">
+            <img src="Netology_HTML+CSS.png" alt="Netology sertificate" width="300" height="210">
+        </div>
+        <div class="code-example">
+            <h2 class="title4">Code Example</h2>
+            <p><b>Bit Counting Kata from Codewars:</b> Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.</p>
+        </div>
+        <pre>
+            <code>
+            function countBits(num){
+                if(num >= 0){
+                let sum = 0;
+                let num2 = num.toString(2);
+                let arr = num2.split('');
+                for(let i = 0; i &lt arr.length; i++){
+                    sum += parseInt(arr[i]);
+                }
+                return sum;
+                }
+            }
+            </code>
+        </pre>
+    </div>
+</div>
+</body>
+</html>
